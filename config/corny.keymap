@@ -73,10 +73,10 @@
             //                    | GUI | LWR | SPC |                    | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC               &kp Q           &kp W  &kp E            &kp R        &kp T                      &kp Y                      &kp U                &kp I                  &kp O    &kp P     &kp MINUS
-&kp LEFT_CONTROL      &mt LEFT_GUI A  &kp S  &kp D            &kp F        &kp G                      &kp H                      &kp J                &kp K                  &kp L    &kp SEMI  &kp SQT
-&mt LEFT_COMMAND TAB  &mt LEFT_ALT Z  &kp X  &kp C            &kp V        &kp B        &mo 2  &mo 1  &kp N                      &kp M                &kp COMMA              &kp DOT  &kp FSLH  &kp BACKSLASH
-                                             &lt 1 LG(LANG2)  &lt 2 SPACE  &lt 3 LANG1                &mt RIGHT_SHIFT BACKSPACE  &mt RIGHT_ALT ENTER  &mt RIGHT_COMMAND TAB
+&kp ESC             &kp Q           &kp W  &kp E                 &kp R        &kp T                                   &kp Y                      &kp U                &kp I                  &kp O    &kp P     &kp MINUS
+&kp TAB             &mt LEFT_GUI A  &kp S  &kp D                 &kp F        &kp G                                   &kp H                      &kp J                &kp K                  &kp L    &kp SEMI  &kp SQT
+&lt 3 LEFT_CONTROL  &mt LEFT_ALT Z  &kp X  &kp C                 &kp V        &kp B                     &mo 2  &mo 1  &kp N                      &kp M                &kp COMMA              &kp DOT  &kp FSLH  &kp BACKSLASH
+                                           &lt 1 LG(LANGUAGE_2)  &lt 2 SPACE  &mt RIGHT_GUI LANGUAGE_1                &mt RIGHT_SHIFT BACKSPACE  &mt RIGHT_ALT ENTER  &mt RIGHT_COMMAND TAB
             >;
 
             sensor-bindings =
@@ -93,7 +93,7 @@
 
             bindings = <
 &trans  &kp N1    &kp N2     &kp N3        &kp N4     &kp N5                        &kp N6          &kp N7          &kp N8        &kp N9           &kp N0     &trans
-&trans  &kp PLUS  &kp MINUS  &kp ASTERISK  &kp SLASH  &kp EQUAL                     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp RG(A)  &kp RG(E)
+&trans  &kp PLUS  &kp MINUS  &kp ASTERISK  &kp SLASH  &kp EQUAL                     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp LC(A)  &kp LC(E)
 &trans  &kp F1    &kp F2     &kp F3        &kp F4     &kp F5     &kp K_MUTE  &none  &kp F6          &kp F7          &kp F8        &kp F9           &kp F10    &kp F11
                              &trans        &trans     &trans                        &trans          &trans          &trans
             >;
