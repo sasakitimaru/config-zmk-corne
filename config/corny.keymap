@@ -74,7 +74,7 @@
 
             bindings = <
 &kp ESC        &kp Q           &kp W  &kp E             &kp R        &kp T                                   &kp Y                      &kp U                &kp I                  &kp O    &kp P     &kp MINUS
-&mt LCTRL TAB  &mt LEFT_GUI A  &kp S  &kp D             &kp F        &kp G                                   &kp H                      &kp J                &kp K                  &kp L    &kp SEMI  &kp SQT
+&mt LCTRL TAB  &kp A           &kp S  &kp D             &kp F        &kp G                                   &kp H                      &kp J                &kp K                  &kp L    &kp SEMI  &kp SQT
 &lt 3 LG(Z)    &mt LEFT_ALT Z  &kp X  &kp C             &kp V        &kp B                     &mo 2  &mo 1  &kp N                      &kp M                &kp COMMA              &kp DOT  &kp FSLH  &kp BACKSLASH
                                       &lt 1 LANGUAGE_2  &lt 2 SPACE  &mt RIGHT_GUI LANGUAGE_1                &mt RIGHT_SHIFT BACKSPACE  &mt RIGHT_ALT ENTER  &mt RIGHT_COMMAND TAB
             >;
