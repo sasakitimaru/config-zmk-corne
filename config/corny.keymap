@@ -81,7 +81,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
-                <&inc_dec_kp DOWN_ARROW UP_ARROW>;
+                <&inc_dec_kp F14 F15>;
         };
 
         lower_layer {
