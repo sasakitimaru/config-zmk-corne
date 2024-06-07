@@ -73,10 +73,10 @@
             //                    | GUI | LWR | SPC |                    | ENT | RSE  | ALT |
 
             bindings = <
-&mt LEFT_SHIFT ESCAPE  &kp Q           &kp W  &kp E                    &kp R                   &kp T                                    &kp Y            &kp U        &kp I        &kp O    &kp P     &kp MINUS
-&lt 3 TAB              &kp A           &kp S  &kp D                    &kp F                   &kp G                                    &kp H            &kp J        &kp K        &kp L    &kp SEMI  &kp EQUAL
-&mt LCTRL RG(Z)        &mt LEFT_ALT Z  &kp X  &kp C                    &kp V                   &kp B                      &mo 2  &mo 1  &kp N            &kp M        &kp COMMA    &kp DOT  &kp FSLH  &kp BACKSLASH
-                                              &mt LEFT_ALT LANGUAGE_2  &mt LEFT_COMMAND SPACE  &mt LEFT_SHIFT LANGUAGE_1                &lt 1 BACKSPACE  &lt 2 ENTER  &lt 3 GRAVE
+&mt LEFT_SHIFT ESCAPE  &kp Q           &kp W  &kp E                    &kp R                   &kp T                                    &kp Y            &kp U        &kp I                  &kp O    &kp P     &kp MINUS
+&lt 3 TAB              &kp A           &kp S  &kp D                    &kp F                   &kp G                                    &kp H            &kp J        &kp K                  &kp L    &kp SEMI  &kp EQUAL
+&sl 3                  &mt LEFT_ALT Z  &kp X  &kp C                    &kp V                   &kp B                      &mo 2  &mo 1  &kp N            &kp M        &kp COMMA              &kp DOT  &kp FSLH  &kp BACKSLASH
+                                              &mt LEFT_ALT LANGUAGE_2  &mt LEFT_COMMAND SPACE  &mt LEFT_SHIFT LANGUAGE_1                &lt 1 BACKSPACE  &lt 2 ENTER  &mt RIGHT_SHIFT GRAVE
             >;
 
             sensor-bindings =
@@ -124,10 +124,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp N7  &kp N8   &kp N9  &kp KP_MINUS  &kp SLASH
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp N4  &kp N5   &kp N6  &kp PLUS      &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N1  &kp N2   &kp N3  &kp ENTER     &kp EQUAL
-                        &trans  &trans  &trans                  &trans  &kp N0  &kp DOT
+&trans  &trans  &kp LA(RIGHT_ARROW)  &trans  &trans          &trans                              &kp RG(C)       &kp N7          &kp N8        &kp N9           &kp RG(P)  &kp SLASH
+&trans  &trans  &trans               &trans  &trans          &trans                              &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PLUS   &kp ASTERISK
+&sl 1   &trans  &trans               &trans  &sk LEFT_SHIFT  &kp LA(LEFT_ARROW)  &trans  &trans  &trans          &kp N1          &kp N2        &kp N3           &kp ENTER  &kp EQUAL
+                                     &trans  &trans          &trans                              &trans          &kp N0          &kp DOT
             >;
         };
     };
